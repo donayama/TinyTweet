@@ -1,9 +1,9 @@
-Welcome to your Appcelerator Titanium Mobile Project
+「Titanium Mobileで開発するiPhone/Androidアプリ」
+第４章サンプルコード "TinyTweet"
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
-
-
+ビルドに当たってはresources/titwitter.js内にある
+Twitter OAuthのConsumer KeyとCosumer Secret情報の書き換え、
+TwitPicのAPIKey情報の書き換えを行ってください。
 
 ----------------------------------
 Stuff our legal folk make us say:

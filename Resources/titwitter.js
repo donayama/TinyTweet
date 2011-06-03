@@ -7,8 +7,9 @@ if(Titanium.Platform.osname !== 'android') {
 }
 Ti.include("lib/twitter_api.js");
 Ti.App.twitterApi = new TwitterApi({
-	consumerKey:    'xqxJ15L3fLykZs7Lwfn23Q',
-	consumerSecret: 'RnLuB9upMIP98tH16Czyq7qNuDdAftApCxRPFNs4GqI'
+	// ここを変更してください。
+	consumerKey:    '取得したCosumerKeyに置き換えてください。',
+	consumerSecret: '取得したCosumerSecretに置き換えてください。'
 });
 var twitterApi = Ti.App.twitterApi;
 twitterApi.init();
@@ -308,8 +309,8 @@ var TiTwitter = {};
 	};
 	// Twitpicへの投稿
 	TiTwitter.postTwitPic = function(photo, message, callbackOnSuccess, callbackOnError) {
-		//		var apiKey = "取得したTwitPic APIキー";
-		var apiKey = "5c20af5048fe6e1abe0562bfd830e4f1";
+		// ここを変更してください
+		var apiKey = "取得したTwitPic APIキー";
 		var client = Titanium.Network.createHTTPClient();
 		client.open('POST', 'http://api.twitpic.com/1/upload.json', false);
 		client.setRequestHeader('User-Agent','titwitter.js');
