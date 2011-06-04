@@ -5,6 +5,9 @@
 Twitter OAuthのConsumer KeyとCosumer Secret情報の書き換え、
 TwitPicのAPIKey情報の書き換えを行ってください。
 
+build/iphone, build/androidフォルダがないためにビルド
+出来ない場合は手動で作成をお願いします。
+
 ----------------------------------
 Stuff our legal folk make us say:
 
